@@ -1,0 +1,20 @@
+{
+  "name": "single-spa-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-dev-server --config mocks/microfrontends/webpack.config.js --mode=development --env mockFile=store.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.5.4",
+    "webpack": "^5.69.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
